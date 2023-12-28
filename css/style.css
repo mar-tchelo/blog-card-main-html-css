@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Figtree:wght@300;600;800&display=swap');
+@import url('global.css');
+
+
+.card-container{    
+    background-color: var(--cor-fundo-container);
+    padding: 20px;
+    border-radius: 15px;
+    border: 1px solid var(--cor-borda);
+    box-shadow: 10px 10px 6px var(--cor-sombra);
+}
+
+
+.card-info{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;    
+    margin: 15px 0;
+}
+
+
+/* Estilos para o botão */
+.card-info a {      
+    background: linear-gradient(to bottom, var(--cor-primaria) 5%, var(--cor-primaria-escura) 100%);
+    background-color: var(--cor-primaria);
+    border-radius: 5px;
+    border: 1px solid var(--cor-primaria-escura);
+    display: inline-block;
+    cursor: pointer;
+    color: var(--cor-texto-primaria);
+    font-size: 15px;
+    font-weight: bold;
+    padding: 9px 15px;
+    text-decoration: none;
+    transition: all 0.3s ease 0s;
+    letter-spacing: 1px;
+}
+
+.card-info a:hover{
+    background: linear-gradient(to bottom, var(--cor-primaria-escura) 5%, var(--cor-primaria) 100%);
+    background-color: var(--cor-primaria-escura);
+}
+
+.card-info a:active{
+    position: relative;
+    top: 2px;
+}
+
+.info-date{
+    font-weight: 300;    
+    margin: 15px 0;
+    color: var(--cor-texto-secundaria);
+    font-size: 14px;
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.content h1{
+    font-size: 26px;
+}
+
+.content p{
+    width: 300px;
+    color: var(--cor-texto-secundaria);
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.author{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin: 15px 0;
+
+    font-size: 18px;
+    font-weight: bold;
+}

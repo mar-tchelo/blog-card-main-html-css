@@ -1,0 +1,44 @@
+
+:root {
+
+      /* Cores Primárias */
+    --cor-primaria: #ffec64; /* Amarelo */
+    --cor-primaria-escura: #ffab23; /* Amarelo escuro */
+        
+    /* Cores de Fundo */
+    --cor-fundo-body: #ffec64; /* Cor de fundo do body */
+    --cor-fundo-container: #f3f3f3; /* Cor de fundo do container */
+
+    /* Cores de Texto */
+    --cor-texto-primaria: #000; /* Texto principal */
+    --cor-texto-secundaria: #333; /* Texto secundário */
+    
+    
+    /* Tamanhos e Espaçamentos */
+    --espacamento-vertical: 23px; /* Espaçamento vertical */
+    --espacamento-horizontal: 15px; /* Espaçamento horizontal */
+
+    /* Cores de Borda e Sombra */
+    --cor-borda: #000; /* Cor das bordas */
+    --cor-sombra: rgba(0, 0, 0, 0.678); /* Cor da sombra */
+
+  }
+
+/* Reset de Estilos */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;    
+}
+
+/* Estilos Gerais */
+body{
+    background-color: var(--cor-fundo-body);
+    font-size: 16px;
+    font-family:'Figtree', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: var(--cor-texto-primaria);
+}
